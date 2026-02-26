@@ -1,0 +1,60 @@
+.dashboard {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.welcome-card {
+  background: linear-gradient(to right, #1e3a8a, #1e293b);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.welcome-card h1 {
+  margin: 10px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.primary {
+  background-color: #3b82f6;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: #334155;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.stat-card h4 {
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 22px;
+  font-weight: bold;
+}

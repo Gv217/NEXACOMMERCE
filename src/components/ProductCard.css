@@ -1,0 +1,19 @@
+.product-card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card button {
+  background: var(--primary);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}

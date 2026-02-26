@@ -1,0 +1,49 @@
+/* THEME COLORS */
+body.dark {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #ffffff;
+  --primary: #3b82f6;
+}
+
+body.light {
+  --bg: #f1f5f9;
+  --card: #ffffff;
+  --text: #0f172a;
+  --primary: #3b82f6;
+}
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s ease;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LAPTOP OPTIMIZED WIDTH */
+.main {
+  flex: 1;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .main {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
