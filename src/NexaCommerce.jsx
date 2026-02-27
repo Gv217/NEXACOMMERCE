@@ -99,17 +99,35 @@ export default function NexaCommerce() {
 
   // Theme tokens
   const t = {
-    bg: d ? "#0a0e1a" : "#f0f4f8",
-    card: d ? "#0d1526" : "#ffffff",
-    sidebar: d ? "#060c1a" : "#1a2236",
-    nav: d ? "#08111f" : "#0f1d35",
-    border: d ? "rgba(255,255,255,0.07)" : "rgba(0,0,0,0.1)",
-    text: d ? "#e8edf5" : "#1a2236",
-    textMuted: d ? "#6b7a99" : "#4a5568",
-    accent: "#3b82f6",
-    accentGlow: d ? "0 0 20px rgba(59,130,246,0.3)" : "none",
-    input: d ? "#111827" : "#f9fafb",
-    inputBorder: d ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.15)",
+    bg: d ? "#0a0e1a" : "#f4f6f9",
+
+  card: d ? "#0d1526" : "#ffffff",
+
+  // FIXED SIDEBAR (no more blue in light mode)
+  sidebar: d ? "#060c1a" : "#ffffff",
+
+  // FIXED NAVBAR
+  nav: d ? "#08111f" : "#ffffff",
+
+  border: d
+    ? "rgba(255,255,255,0.07)"
+    : "rgba(0,0,0,0.08)",
+
+  text: d ? "#e8edf5" : "#1f2937",
+
+  textMuted: d ? "#6b7a99" : "#6b7280",
+
+  accent: "#3b82f6",
+
+  accentGlow: d
+    ? "0 0 20px rgba(59,130,246,0.3)"
+    : "none",
+
+  input: d ? "#111827" : "#ffffff",
+
+  inputBorder: d
+    ? "rgba(255,255,255,0.1)"
+    : "rgba(0,0,0,0.1)",
   };
 
   const styles = {
